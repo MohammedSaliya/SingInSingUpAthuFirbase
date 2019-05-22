@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39BCD2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignIn">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Sign Here!!"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:hint=" Email Id"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:singleLine="true"
+        android:textColorHint="#000"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="number"
+        android:padding="16dp"
+        android:singleLine="true"
+        android:textColorHint="#000"
+        android:textSize="12sp" />
+
+    <!--  <EditText
+          android:id="@+id/repassword"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/phone"
+          android:layout_marginLeft="55dp"
+          android:layout_marginTop="6dp"
+          android:layout_marginRight="55dp"
+          android:layout_marginBottom="6dp"
+          android:background="@drawable/edittext"
+          android:drawablePadding="8dp"
+          android:gravity="center"
+          android:hint="again password"
+          android:inputType="number"
+          android:padding="16dp"
+          android:singleLine="true"
+          android:textColorHint="#000"
+          android:textSize="12sp" />-->
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="L o g i n "
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/forgetpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Forget Your Password? Reset"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "609779184746",
+    "firebase_url": "https://singinsingupathufirbase.firebaseio.com",
+    "project_id": "singinsingupathufirbase",
+    "storage_bucket": "singinsingupathufirbase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609779184746:android:44792ccac4ed95d7",
+        "android_client_info": {
+          "package_name": "com.example.singinsingupathufirbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609779184746-3e4loq34v1s764sptn8r2j4bc7iln4e7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.singinsingupathufirbase",
+            "certificate_hash": "c4ae27bf8fd505f9d0149b2f4be931c59fec45d3"
+          }
+        },
+        {
+          "client_id": "609779184746-v06l4h8048hk9hepuhbbfnn4j55erfr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8PEWI5LJ8c8es6Q7unJYH3JBTLK4ZSeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609779184746-v06l4h8048hk9hepuhbbfnn4j55erfr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
